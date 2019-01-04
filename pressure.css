@@ -24,6 +24,7 @@ input {
 
 #kilopascals-output {
 	background-color:blue;
+  font-size: 1.2em;
 	width:35%;
 	display:inline-block;
 	margin-bottom:20px;
@@ -32,6 +33,7 @@ input {
 
 #bars-output {
 	background-color:green;
+  font-size: 1.2em;
 	width:35%;
 	display:inline-block;
 	margin-bottom:20px;
@@ -40,6 +42,7 @@ input {
 
 #torr-output {
 	background-color:red;
+  font-size: 1.2em;
 	width:35%;
 	display:inline-block;
 	margin-bottom:20px;
@@ -60,5 +63,6 @@ h4 {
   }
   #kilopascals-output, #bars-output, #torr-output {
     width: 65%;
+    font-size: 1.0em;
   }
 }
