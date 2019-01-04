@@ -1,0 +1,64 @@
+body {
+	margin-top:70px;
+	background:#333333;
+	color:#ffffff;
+}
+
+.container {
+	border:1px solid black;
+	width:1000px;
+	margin:20px auto;
+	text-align:center;
+}
+
+h1 {
+	display:block;
+	text-align:center;
+}
+
+input {
+	width:40%;
+	margin-bottom:15px;
+	padding:12px;
+}
+
+#kilopascals-output {
+	background-color:blue;
+	width:35%;
+	display:inline-block;
+	margin-bottom:20px;
+	color:#ffffff;
+}
+
+#bars-output {
+	background-color:green;
+	width:35%;
+	display:inline-block;
+	margin-bottom:20px;
+	color:#ffffff;
+}
+
+#torr-output {
+	background-color:red;
+	width:35%;
+	display:inline-block;
+	margin-bottom:20px;
+	color:#ffffff;
+}
+
+h4 {
+	text-align:left;
+	padding-left:8px;
+}
+
+@media (max-width:600px) {
+  .container {
+    width: 300px;
+  }
+  input {
+    width: 60%;
+  }
+  #kilopascals-output, #bars-output, #torr-output {
+    width: 65%;
+  }
+}
