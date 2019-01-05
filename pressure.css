@@ -49,6 +49,24 @@ input {
 	color:#ffffff;
 }
 
+#atm-output {
+	background-color:#9932cc;
+  font-size: 1.2em;
+	width:35%;
+	display:inline-block;
+	margin-bottom:20px;
+	color:#ffffff;
+}
+
+#mercury-output {
+	background-color:#ff69b4;
+  font-size: 1.2em;
+	width:35%;
+	display:inline-block;
+	margin-bottom:20px;
+	color:#ffffff;
+}
+
 h4 {
 	text-align:left;
 	padding-left:8px;
